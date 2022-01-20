@@ -13,6 +13,8 @@
 	</properties>
 
 	<build>
+		<directory>${basedir}/target</directory>
+		<finalName>klic</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -29,4 +31,11 @@
 			</plugin>
 		</plugins>
 	</build>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>5.3.15</version>
+		</dependency>
+	</dependencies>
 </project>
