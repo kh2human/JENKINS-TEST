@@ -9,22 +9,6 @@
     <property name="debuglevel" value="source,lines,vars"/>
     <property name="target" value="11"/>
     <property name="source" value="11"/>
-    <path id="JUnit 5.libraryclasspath">
-        <pathelement location="../../.p2/pool/plugins/org.junit.jupiter.api_5.7.1.v20210222-1948.jar"/>
-        <pathelement location="../../.p2/pool/plugins/org.junit.jupiter.engine_5.7.1.v20210222-1948.jar"/>
-        <pathelement location="../../.p2/pool/plugins/org.junit.jupiter.migrationsupport_5.7.1.v20210222-1948.jar"/>
-        <pathelement location="../../.p2/pool/plugins/org.junit.jupiter.params_5.7.1.v20210222-1948.jar"/>
-        <pathelement location="../../.p2/pool/plugins/org.junit.platform.commons_1.7.1.v20210222-1948.jar"/>
-        <pathelement location="../../.p2/pool/plugins/org.junit.platform.engine_1.7.1.v20210222-1948.jar"/>
-        <pathelement location="../../.p2/pool/plugins/org.junit.platform.launcher_1.7.1.v20210222-1948.jar"/>
-        <pathelement location="../../.p2/pool/plugins/org.junit.platform.runner_1.7.1.v20210222-1948.jar"/>
-        <pathelement location="../../.p2/pool/plugins/org.junit.platform.suite.api_1.7.1.v20210222-1948.jar"/>
-        <pathelement location="../../.p2/pool/plugins/org.junit.vintage.engine_5.7.1.v20210222-1948.jar"/>
-        <pathelement location="../../.p2/pool/plugins/org.opentest4j_1.2.0.v20190826-0900.jar"/>
-        <pathelement location="../../.p2/pool/plugins/org.apiguardian_1.1.0.v20190826-0900.jar"/>
-        <pathelement location="../../.p2/pool/plugins/org.junit_4.13.0.v20200204-1500.jar"/>
-        <pathelement location="../../.p2/pool/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
-    </path>
     <path id="Maven Dependencies.libraryclasspath">
         <pathelement location="../../.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar"/>
         <pathelement location="../../.m2/repository/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar"/>
@@ -40,7 +24,6 @@
     <path id="JENKINS-TEST.classpath">
         <pathelement location="target/classes"/>
         <pathelement location="target/test-classes"/>
-        <path refid="JUnit 5.libraryclasspath"/>
         <path refid="Maven Dependencies.libraryclasspath"/>
     </path>
     <path id="run.GreeterTest.classpath">
